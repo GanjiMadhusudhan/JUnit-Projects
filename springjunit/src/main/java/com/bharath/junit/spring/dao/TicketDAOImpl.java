@@ -8,6 +8,7 @@ import com.bharath.junit.spring.dto.Ticket;
 public class TicketDAOImpl implements TicketDAO {
 
 	public int createTicket(Ticket ticket) {
+		System.out.println("Inside class: "+this.getClass().getSimpleName()+".  Inside method: createTicket()");
 		return 1;
 	}
 

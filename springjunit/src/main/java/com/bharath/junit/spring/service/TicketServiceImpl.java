@@ -17,14 +17,17 @@ public class TicketServiceImpl implements TicketService {
 		Ticket ticket = new Ticket();
 		ticket.setPassengerName(passengerName);
 		ticket.setPhone(phone);
+		System.out.println("Inside class: "+this.getClass().getSimpleName()+".  Inside method: buyTicket()");
 		return getDao().createTicket(ticket);
 	}
 
 	public TicketDAO getDao() {
+		System.out.println("Inside class: "+this.getClass().getSimpleName()+".  Inside method: getDao()");
 		return dao;
 	}
 
 	public void setDao(TicketDAO dao) {
+		System.out.println("Inside class: "+this.getClass().getSimpleName()+".  Inside method: setDao()");
 		this.dao = dao;
 	}
 

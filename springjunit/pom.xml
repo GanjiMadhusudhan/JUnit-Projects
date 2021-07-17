@@ -3,17 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bharath.junit.spring</groupId>
-	<artifactId>springjunit</artifactId>
+	<artifactId>test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springjunit</name>
+	<name>test</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
