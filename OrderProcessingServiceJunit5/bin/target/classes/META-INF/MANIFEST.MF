@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Madhu
+Build-Jdk: 11.0.2
+Implementation-Title: OrderProcessingServiceJunit5
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.bharath.order.bo
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/OrderProcessingServiceJunit5
+Created-By: Maven Integration for Eclipse
+
